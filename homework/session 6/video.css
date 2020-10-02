@@ -1,0 +1,183 @@
+ /* selector */
+/* 1 */
+p {
+    color: red;
+}
+/* 2 */
+#cover {
+    color: #00FF00;
+}
+
+/* 3 */
+
+#font24 {
+    font-size: 24px;
+}
+/* 4 */
+.cover {
+    font-size: 3em;
+    background: wheat
+  }
+/* 5 */
+#div1 {
+    color: black;
+}
+#div2 {
+    color: blue;
+}
+/* 6 */
+nav a {
+    color: yellow;
+}
+/* 7 */
+ul li {
+    font-weight: bold;
+}
+/* 8 */
+
+.item > span {
+    font-size: 18px;
+}
+
+.item div {
+    font-style: italic;
+}
+
+/*Properties*/
+
+/*Background */
+/* 1:
+/*/
+.div1{
+    background-color: wheat;
+    color: yellowgreen;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+/* 2:
+/*/
+a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background:wheat;
+    color: yellowgreen;
+    text-decoration: none;
+    font-family: monospace;
+    line-height: 100px;
+    text-align: center;
+    
+  }
+  /* 3:
+  /*/ 
+
+  #div1 {
+      background-image: url(https://i.ytimg.com/vi/SGxQAs9ULWY/maxresdefault.jpg) ;
+      background-size: contain;
+      width: 75px;
+      height: 75px;
+      background-repeat: no-repeat;
+  }
+  #div2{
+  background-image: url(https://gameworld.vn/wp-content/uploads/2019/03/dota-2-oracle-support-tot-nhat-meta-7-21.jpg);
+  background-size: contain;
+      height: 75px;
+    }
+  #div3 {
+      background-image: url(https://i.ytimg.com/vi/r07QEn35Vo8/maxresdefault.jpg);
+      background-size: contain;
+      width: 75px;
+      height: 75px;
+  }
+  #div4 {
+      background-image: url(https://znews-photo.zadn.vn/w660/Uploaded/kbd_bcvi/2019_11_23/5d828d976f24eb1a752053b5_thumb.jpg);
+      background-size: contain;
+      width: 400px;
+      height: 400px;
+      background-repeat: no-repeat;
+
+  }
+  #div5 {
+      background-image: url(https://genk.mediacdn.vn/2017/skyglow-007-1493367822296.jpg);
+      width: 400px;
+      height: 400px;
+  }
+
+  /* Border*/
+
+
+  div{
+    width: 200px;
+    height:200px;
+    background-color: lawngreen;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    border-style: inset;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 100%;
+  }
+
+  /* Boxmodel*/
+  #div1{
+    background: wheat;
+    width:400px;
+    border: 2px solid green;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  } 
+
+  #a >div {
+    background:wheat;
+    /*  Insert code bellow   */
+   
+    margin: 50px;
+  }
+
+  #a{
+    /* DO NOT insert code here */
+    border:1px solid black
+  }
+
+  #div3{
+    width : 200px;
+    height : 200px;
+    font-size:2em;
+    background:wheat;
+    box-sizing: border-box;
+    padding-left: 200px;
+ 
+  }
+
+  /*Display*/
+
+/* span{
+    background: red;
+   display: block;
+  } */
+  div{
+    background: blue;
+  }
+
+  #div1{
+    background: red;
+    display: block;
+  }
+
+  #span1{
+    background: red;
+  }
+  #span2{
+    background:yellow;
+    display: inline-block;
+    width: 500px;
+  }
+
+  /*Text-pont*/
+
+ 
